@@ -1,0 +1,55 @@
+.field {
+  width: 250px;
+
+  text-align: center;
+}
+
+.h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.button {
+  width: 30px;
+  height: 30px;
+
+  font-size: inherit;
+  color: #ffffff;
+
+  background-color: #53b374;
+  border: none;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: #4a9765;
+}
+
+.button:focus,
+.input:focus {
+  outline: none;
+}
+
+.input {
+  width: 100px;
+  height: 30px;
+  margin-right: 5px;
+  margin-left: 5px;
+
+  font-size: inherit;
+  text-align: center;
+
+  border: 1px solid #aaaaaa;
+  border-radius: 8px;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  margin: 0;
+
+  -webkit-appearance: none;
+}
+
+.input[type="number"] {
+  -moz-appearance: textfield;
+}
